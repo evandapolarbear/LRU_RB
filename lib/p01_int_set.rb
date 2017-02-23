@@ -47,7 +47,7 @@ class IntSet
   end
 
   def remove(num)
-
+    bckt(num).delete(num)
   end
 
   def include?(num)
